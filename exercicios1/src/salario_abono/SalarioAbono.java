@@ -4,17 +4,17 @@ import java.util.Scanner;
 public class SalarioAbono {
 
 	public static void main(String[] args) {
-		double salario, abono, novoSalario; 
+		float salario, abono, novoSalario; 
 		
 		
 		Scanner leia = new Scanner(System.in);
 		
 		System.out.print("Seja bem-vindo!");
 		System.out.print("\nInforme seu salário: ");
-		salario = leia.nextDouble();
+		salario = leia.nextFloat();
 		
 		System.out.print("\nInforme seu abono: ");
-		abono = leia.nextDouble();
+		abono = leia.nextFloat();
 		
 		novoSalario = salario + abono;
 		
