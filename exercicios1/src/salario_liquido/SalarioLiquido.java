@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SalarioLiquido {
 
 	public static void main(String[] args) {
-float salarioBruto, adicionalNoturno, horasExtras, descontos, salarioLiq; 
+		float salarioBruto, adicionalNoturno, horasExtras, descontos, salarioLiq; 
 		
 		
 		Scanner leia = new Scanner(System.in);
