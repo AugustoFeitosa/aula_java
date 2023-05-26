@@ -11,11 +11,11 @@ public class CaracteristicasAnimal {
 		System.out.println("Vamos advinhar um animal com base em suas caracteristicas!");
 		System.out.println("\nInforme os dados nos campos abaixo!");
 		
-		System.out.println("Primeira caracteristica: ");
+		System.out.print("Primeira caracteristica: ");
 		primeiraCarac = leia.nextLine();
-		System.out.println("Segunda caracteristica: ");
+		System.out.print("Segunda caracteristica: ");
 		segundaCarac = leia.nextLine();
-		System.out.println("Terceira caracteristica: ");
+		System.out.print("Terceira caracteristica: ");
 		terceiraCarac = leia.nextLine();
 		
 		if(primeiraCarac.equalsIgnoreCase("vertebrado")) {

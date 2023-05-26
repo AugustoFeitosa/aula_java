@@ -11,7 +11,7 @@ public class NovoSalario {
 		
 		
 		Scanner leia = new Scanner(System.in);
-		System.out.println("Bem-vindo ao Financeiro da Empresa ");
+		System.out.println("Bem-vindo ao App Financeiro da Empresa ");
 		System.out.print("Informe seu Nome: ");
 		nomeFuncionario = leia.nextLine().toUpperCase();
 		
