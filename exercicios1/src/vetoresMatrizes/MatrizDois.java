@@ -31,7 +31,7 @@ public class MatrizDois {
 		}
 			System.out.print("Médias de cada aluno: ");
 		for(int indice = 0; indice < 10; indice++) {
-			System.out.print(vetor[indice] + " | ");
+			System.out.printf("%-7.1f",vetor[indice] , " | ");
 		}
 		
 		
