@@ -56,7 +56,7 @@ public class ContaBancaria {
 			System.out.println("  Operação inválida, Por favor tente novamente :)");
 		}
 		
-		
+		leia.close();
 	}
 
 }

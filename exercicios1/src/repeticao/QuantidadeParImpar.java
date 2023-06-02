@@ -23,6 +23,7 @@ public class QuantidadeParImpar {
 		System.out.println("\nO total de número PARES: " + numeroPar);
 		System.out.println("O total de número IMPARES: " + numeroImpar);
 	
+		leia.close();
 	}
 
 }

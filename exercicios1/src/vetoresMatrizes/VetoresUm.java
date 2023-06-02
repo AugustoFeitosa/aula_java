@@ -25,7 +25,7 @@ public class VetoresUm {
 			System.out.println("O número " + numeroDigitado + " não foi encontrado!");
 		}
 		
-		
+		leia.close();
 
 	}
 }

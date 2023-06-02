@@ -32,6 +32,7 @@ public class SalarioLiquido {
 		
 		System.out.printf("%.2f ", salarioLiq);
 
+		leia.close();
 	}
 
 }

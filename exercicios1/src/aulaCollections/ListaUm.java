@@ -20,5 +20,7 @@ public class ListaUm {
 		cores.sort(null);
 		System.out.print("\nOrdenar as cores: ");
 		System.out.print(cores);
+
+		leia.close();
 	}
 }

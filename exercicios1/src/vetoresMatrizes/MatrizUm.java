@@ -3,7 +3,9 @@ package vetoresMatrizes;
 public class MatrizUm {
 
 	public static void main(String[] args) {
-		int matriz[][] = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } }, colunasLinhas = 3, soma = 0;
+		int matriz[][] = { { 1, 2, 3 }, 
+							{ 4, 5, 6 }, 
+							{ 7, 8, 9 } }, colunasLinhas = 3, soma = 0;
 
 		System.out.println("Diagonal Principal");
 		for (int indice = 0; indice < colunasLinhas; indice++) {
@@ -20,6 +22,8 @@ public class MatrizUm {
 			soma += matriz[indice][colunasLinhas - 1 - indice];
 		}
 		System.out.println("Soma dos Elementos da Diagonal Secundária: " + soma);
+
+		
 	}
 
 }

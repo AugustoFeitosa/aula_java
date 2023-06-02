@@ -1,7 +1,6 @@
 package vetoresMatrizes;
 
 import java.util.Scanner;
-import java.util.ArrayList;
 public class MatrizDois {
 
 	public static void main(String[] args) {
@@ -36,7 +35,7 @@ public class MatrizDois {
 		
 		
 		
-		
+		leia.close();
 	}
 
 }

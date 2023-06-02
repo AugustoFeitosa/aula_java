@@ -32,6 +32,7 @@ public class CalculeDiferença {
 		System.out.print("O valor da diferença é igual a:\n");
 		System.out.printf("%.1f ", difValor);
 
+		leia.close();
 
 	}
 

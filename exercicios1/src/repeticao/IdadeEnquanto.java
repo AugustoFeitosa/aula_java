@@ -28,7 +28,7 @@ public class IdadeEnquanto {
 		System.out.println("Total de pessoas menores de 21 anos: " + idadeMenor);
 		System.out.println("Total de pessoas maiores de 50 anos: " + idadeMaior);
 		
-
+		leia.close();
 	}
 
 }

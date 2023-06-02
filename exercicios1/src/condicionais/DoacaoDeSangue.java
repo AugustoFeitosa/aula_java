@@ -40,7 +40,7 @@ public class DoacaoDeSangue {
 			System.out.println(nome + ", está apto(a) para doar sangue!");
 		} 
 		
-
+		leia.close();
 	}
 
 }

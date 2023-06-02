@@ -51,7 +51,7 @@ public class CaracteristicasAnimal {
 			}
 			
 		}
-		
+		leia.close();
 	}
 
 }

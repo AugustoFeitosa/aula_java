@@ -26,6 +26,7 @@ public class MediaMultiplosTres {
 		media = soma/contador;
 		System.out.println("A soma dos números positivos é " + media);
 
+		leia.close();
 	}
 
 }

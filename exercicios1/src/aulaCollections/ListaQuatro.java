@@ -35,7 +35,7 @@ public class ListaQuatro {
 			System.out.println("\nO número " + numeroDigitado + " não foi encontrado");
 		}
 		
-		
+		leia.close();
 	}
 
 }

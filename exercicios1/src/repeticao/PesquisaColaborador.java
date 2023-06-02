@@ -54,7 +54,7 @@ public class PesquisaColaborador {
 		System.out.println("Total de mulheres desenvolvedoras FullStack menores de 30 anos: " + mulherDevFull);
 		
 		
-		
+		leia.close();
 	}
 
 }

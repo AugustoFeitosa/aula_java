@@ -35,6 +35,7 @@ public class ListaDois {
 			System.out.println("O número " + numeroDigitado + " não foi encontrado!");
 		}
 
+		leia.close();
 	}
 
 }

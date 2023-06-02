@@ -28,6 +28,7 @@ public class MultiploTresCinco {
 			}
 
 		}
+		leia.close();
 	}
 
 }

@@ -33,6 +33,7 @@ public class VetoresDois {
 	 System.out.println("\nSoma: " + soma);
 	 System.out.printf("Média: %.2f" , media);
 	 
+	 leia.close();
 	}
 
 }

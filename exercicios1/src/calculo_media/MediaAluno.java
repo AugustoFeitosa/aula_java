@@ -30,6 +30,8 @@ public class MediaAluno {
 		System.out.print("\nSua média final foi de: ");
 		
 		System.out.printf("%.1f ", media);
+
+		leia.close();
 	}
 
 }

@@ -54,7 +54,7 @@ public class CalculadoraSimples {
 		default:
 			System.out.println(" Operação inválida, Por favor tente novamente :)");
 		}
-
+		leia.close();
 	}
 
 }

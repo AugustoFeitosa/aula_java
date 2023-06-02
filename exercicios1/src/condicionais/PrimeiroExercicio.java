@@ -31,6 +31,7 @@ public class PrimeiroExercicio {
 		else {
 			System.out.println("A soma entre " + valorUm + " e " + valorDois + " é igual a " + valorTres);
 		}
+		leia.close();
 	}
 
 }

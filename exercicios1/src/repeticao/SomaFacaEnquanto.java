@@ -22,6 +22,8 @@ public class SomaFacaEnquanto {
 		}while(numero != 0);
 
 		System.out.println("A soma dos números positivos é " + soma);
+		
+		leia.close();
 	}
 
 }

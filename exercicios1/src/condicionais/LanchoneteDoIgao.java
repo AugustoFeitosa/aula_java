@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class LanchoneteDoIgao {
 
 	public static void main(String[] args) {
-		String produtoLanche;
 		int quantidadeLanche, codigoLanche;
 		double precoLanche, totalLanche;
 		
@@ -71,7 +70,7 @@ public class LanchoneteDoIgao {
 		    System.out.printf("%.2f ", totalLanche);
 		    break;
 		}
-
+		leia.close();
 	}
 
 }

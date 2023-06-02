@@ -21,7 +21,7 @@ public class SalarioAbono {
 		System.out.print("\nSeu novo salário será de: R$ " + novoSalario);
 		
 
-		
+		leia.close();
 	}
 
 }

@@ -83,7 +83,7 @@ public class NovoSalario {
 		default:
 			System.out.println("Cargo inválido, Por favor tente novamente :)");
 		}
-
+		leia.close();
 	}
 
 }
