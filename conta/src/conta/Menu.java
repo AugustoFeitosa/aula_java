@@ -1,14 +1,43 @@
 package conta;
 
 import java.util.Scanner;
-import conta.util.Cores;
+
+import conta.model.Conta;
+import conta.model.ContaCorrente;
+import conta.model.ContaPoupanca;
+import contaUtil.Cores;
 public class Menu {
 
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
-		int opcoesMenu;
+		
+		//Teste da Classe Conta
+		Conta c1 = new Conta(1, 123, 1, "Adriana", 10000.00);
 
-		while (true) {
+		c1.sacar(12000.00);
+		c1.statusConta();
+		c1.depositar(5000.00);
+		c1.statusConta();
+		
+		// Teste da Classe Conta Corrente
+		ContaCorrente cc1 = new ContaCorrente(2, 123, 1, "Mariana", 15000.00, 1000.00);
+		cc1.sacar(1000.00);
+		cc1.depositar(5000.00);
+		cc1.statusConta();
+		
+		//Teste da Classe Conta Poupança
+		ContaPoupanca cp1 = new ContaPoupanca(3, 123, 2, "Victor", 10000.00, 15);
+		cp1.sacar(1000.00);
+		cp1.depositar(5000.00);
+		cp1.statusConta();
+
+		int opcoesMenu;
+	
+	
+	}
+}
+
+		/*while (true) {
 			System.out.println(Cores.TEXT_YELLOW_BRIGHT);
 			System.out.println(" ______________________________________________________");
 			System.out.println("                                                       ");
@@ -32,7 +61,7 @@ public class Menu {
 			
 
 			if (opcoesMenu == 9) {
-				System.out.println("\n\tAGRADECEMOS SUA PREFERÊNCIA");
+				System.out.println("\n\tAGRADECEMOS SUA PREFERÃŠNCIA");
 				System.out.println("\t\tEQUIPE BNG");
 				
 				leia.close();
@@ -105,7 +134,7 @@ public class Menu {
 				System.out.println("                                                       ");
 				break;
 			default:
-				System.out.println("\n\t\tOpção Inválida!\n");
+				System.out.println("\n\t\tOpção Invalida!\n");
 				break;
 			}
 
@@ -114,4 +143,4 @@ public class Menu {
 		
 	}
 
-}
+}*/ 
