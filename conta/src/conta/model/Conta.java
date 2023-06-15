@@ -37,13 +37,13 @@ public abstract class Conta {
                 break;
 
             case 2:
-                tipo = "Conta Poupança";
+                tipo = "Conta Poupanï¿½a";
                 break;
         }
 
         System.out.println("\nDados da Conta");
-        System.out.println("Número da Conta: " + this.getNumeroConta());
-        System.out.println("Agência: " + this.getAgencia());
+        System.out.println("Numero da Conta: " + this.getNumeroConta());
+        System.out.println("Agencia: " + this.getAgencia());
         System.out.println("Tipo da Conta: " + tipo);
         System.out.println("Titular: " + this.getTitular());
         System.out.println("Saldo: " + this.getSaldo());
